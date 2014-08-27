@@ -60,7 +60,7 @@ var FB = {
 // Usage example 
 (function(FB){
 
-	// Trigger Facebook share dialog
+	// Trigger Facebook feed dialog
 	FB.feedDialog({
 		app_id: 722936844394336,
 		base_url: window.location.protocol + "//" + window.location.host + '/',
