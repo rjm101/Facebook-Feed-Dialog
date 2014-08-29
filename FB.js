@@ -10,7 +10,7 @@ var FB = {
 
 			fb_panel_options = {
 				app_id: share_obj.app_id,
-				display: "popup",
+				display: Modernizr.touch ? "touch" : "popup",
 				link: share_obj.link || null,
 				picture: share_obj.picture || null,
 				name: share_obj.name || null,
